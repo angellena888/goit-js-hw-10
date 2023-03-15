@@ -1,8 +1,8 @@
+import './css/styles.css';
+
 import Notiflix from 'notiflix';
 import debounce from 'lodash.debounce';
 import { fetchCountries } from './fetchCountries';
-
-import './css/styles.css';
 
 const refs = {
     inputForm: document.querySelector('#search-box'),
